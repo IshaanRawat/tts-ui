@@ -34,18 +34,21 @@ section {
   font-size: 2rem;
   margin-bottom: 20px;
 }
-button {
+.button {
     background: black;
     color: white;
     padding: 20px !important;
     border: none;
     margin: 10px;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
     cursor: pointer;
     border-radius: 10px;
 }
-button.green {
+.button.green {
   background: #3dd28d;
 }
-button.blue {
+.button.blue {
   background: #416dea;
 }
