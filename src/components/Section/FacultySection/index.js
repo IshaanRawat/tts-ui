@@ -1,8 +1,11 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 
-const facultySection = () => {
+const facultySection = (props) => {
   return (
-    <h1>Faculty Section</h1>
+    <section>
+      <h1><Link className="no-decoration" to="/"> &larr; </Link>Faculty Section</h1>
+    </section>
   );
 };
 
