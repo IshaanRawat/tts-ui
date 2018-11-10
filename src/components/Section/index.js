@@ -1,14 +1,10 @@
-import React, {Component} from 'react';
+import React, {Component, Fragment} from 'react';
 
 import LoginSection from './LoginSection';
-import AdminSection from './AdminSection';
 import FacultySection from './FacultySection';
 import StudentSection from './StudentSection';
 
 class Section extends Component {
-  constructor(props) {
-    super(props);
-  }
 
   render() {
     let section;
@@ -21,17 +17,14 @@ class Section extends Component {
         case "FACULTY":
           section = <FacultySection />
           break;
-        case "ADMIN":
-          section = <AdminSection />
-          break;
         default:
       }
     }
     return(
-      <div>
+      <Fragment>
         {section ? section : <LoginSection handleLogin={this.props.handleLogin}/> }
         {this.props.logInfo.isLoggedIn && logoutButton}
-      </div>
+      </Fragment>
     );
   }
 }
