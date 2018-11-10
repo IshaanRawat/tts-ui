@@ -52,3 +52,7 @@ section {
 .button.blue {
   background: #416dea;
 }
+.no-decoration {
+  text-decoration: none;
+  color: inherit;
+}
