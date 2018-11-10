@@ -12,7 +12,9 @@ class Section extends Component {
       <Fragment>
         <Switch>
           <Route path="/" exact={true} component={LoginSection} />
+          <Route path="/student/:id" component={StudentSection} />
           <Route path="/student" component={StudentSection} />
+          <Route path="/faculty/:id" component={FacultySection} />
           <Route path="/faculty" component={FacultySection} />
         </Switch>
       </Fragment>
