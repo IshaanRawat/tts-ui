@@ -1,12 +1,13 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 
-const loginSection = (props) => {
+const loginSection = () => {
   return(
     <section id="login-section">
       <div className="section-heading">You are a</div>
       <div className="chain">
-        <button className="six pockets blue" onClick={() => props.handleLogin("FACULTY")}>Faculty Member</button>
-        <button className="six pockets green" onClick={() => props.handleLogin("STUDENT")}>Student</button>
+        <Link className="six pockets button blue" to="/faculty">Faculty</Link>
+        <Link className="six pockets button green" to="/student">Student</Link>
       </div>
     </section>
 
