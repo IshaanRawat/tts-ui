@@ -1,0 +1,15 @@
+.timetable {
+  width: 70%;
+  margin: 20px auto;
+  text-align: center;
+}
+.timetable tr.day td {
+  padding: 10px;
+}
+.timetable tr.day:first-child td {
+  padding-top: 0;
+}
+.timetable tr.course td {
+  border: 1px solid #333;
+  padding: 8px;
+}
