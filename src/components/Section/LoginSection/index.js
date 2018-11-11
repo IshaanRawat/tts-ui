@@ -1,16 +1,23 @@
-import React from 'react';
+import React, {Fragment} from 'react';
 import {Link} from 'react-router-dom';
 
 const loginSection = () => {
   return(
-    <section id="login-section">
-      <div className="section-heading">You are a</div>
-      <div className="chain">
-        <Link className="six pockets button blue" to="/faculty">Faculty</Link>
-        <Link className="six pockets button green" to="/student">Student</Link>
-      </div>
-    </section>
-
+    <Fragment>
+      <section id="login-section">
+        <div className="section-heading">You are a</div>
+        <div className="chain">
+          <Link className="six pockets button blue" to="/faculty">Faculty</Link>
+          <Link className="six pockets button green" to="/student">Student</Link>
+        </div>
+      </section>
+      <section id="login-section">
+        <div className="section-heading">Admin Login Portal</div>
+        <div className="text-center">
+          <Link className="button red" to="/admin">Admin Login</Link>
+        </div>
+      </section>
+    </Fragment>
   );
 };
 
