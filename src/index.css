@@ -35,16 +35,21 @@ section {
   margin-bottom: 20px;
 }
 .button {
-    background: black;
-    color: white;
-    padding: 20px !important;
-    border: none;
-    margin: 10px;
-    display: inline-block;
-    text-decoration: none;
-    text-align: center;
-    cursor: pointer;
-    border-radius: 10px;
+  background: black;
+  color: white;
+  padding: 20px !important;
+  border: none;
+  margin: 10px;
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 10px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+.button:hover {
+  box-shadow: 0 8px 16px rgba(0,0,0,0.25), 0 5px 5px rgba(0,0,0,0.22);
 }
 .button.green {
   background: #3dd28d;
@@ -55,4 +60,29 @@ section {
 .no-decoration {
   text-decoration: none;
   color: inherit;
+}
+form {
+  margin: 20px auto;
+  width: 60%;
+}
+form label {
+  color: #333;
+  margin-bottom: 10px;
+  display: block;
+}
+form input[type=text] {
+  width: 100%;
+  display: block;
+  padding: 10px 12px;
+  border-radius: 10px;
+  border: 1px solid #888;
+}
+form .button {
+  width: 120px;
+  margin: 20px auto;
+  display: block;
+}
+section h2 {
+  text-align: center;
+  margin: 20px 0;
 }
