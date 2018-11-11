@@ -4,11 +4,93 @@ import TimeTable from './../../../UI/TimeTable';
 
 const facultySection = (props) => {
   let result;
+  const data = [
+    {
+      name: "Monday",
+      events: [
+        {
+          time: "9:30 - 10:30",
+          name: "M1"
+        },
+        {
+          time: "9:30 - 10:30",
+          name: "M1"
+        },{
+          time: "9:30 - 10:30",
+          name: "M1"
+        }
+      ]
+    },
+    {
+      name: "Tuesday",
+      events: [
+        {
+          time: "9:30 - 10:30",
+          name: "M1"
+        },
+        {
+          time: "9:30 - 10:30",
+          name: "M1"
+        },{
+          time: "9:30 - 10:30",
+          name: "M1"
+        }
+      ]
+    },
+    {
+      name: "Wednesday",
+      events: [
+        {
+          time: "9:30 - 10:30",
+          name: "M1"
+        },
+        {
+          time: "9:30 - 10:30",
+          name: "M1"
+        },{
+          time: "9:30 - 10:30",
+          name: "M1"
+        }
+      ]
+    },
+    {
+      name: "Thursday",
+      events: [
+        {
+          time: "9:30 - 10:30",
+          name: "M1"
+        },
+        {
+          time: "9:30 - 10:30",
+          name: "M1"
+        },{
+          time: "9:30 - 10:30",
+          name: "M1"
+        }
+      ]
+    }
+    ,{
+      name: "Friday",
+      events: [
+        {
+          time: "9:30 - 10:30",
+          name: "M1"
+        },
+        {
+          time: "9:30 - 10:30",
+          name: "M1"
+        },{
+          time: "9:30 - 10:30",
+          name: "M1"
+        }
+      ]
+    }
+  ];
   if(props.match.params.id) {
     result = (
       <Fragment>
         <h2>Time Table</h2>
-        <TimeTable />
+        <TimeTable data={data}/>
       </Fragment>
     );
   } else {
