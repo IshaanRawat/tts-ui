@@ -4,6 +4,7 @@ import {Route, Switch} from 'react-router-dom';
 import LoginSection from './LoginSection';
 import FacultySection from './FacultySection';
 import StudentSection from './StudentSection';
+import AdminLoginSection from './AdminSection/login';
 
 class Section extends Component {
 
@@ -16,6 +17,7 @@ class Section extends Component {
           <Route path="/student" component={StudentSection} />
           <Route path="/faculty/:id" component={FacultySection} />
           <Route path="/faculty" component={FacultySection} />
+          <Route path="/admin/login" component={AdminLoginSection} />
         </Switch>
       </Fragment>
     );
