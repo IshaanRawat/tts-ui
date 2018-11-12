@@ -1,6 +1,5 @@
 import React, {Fragment} from 'react';
 import {Link} from 'react-router-dom';
-import TimeTable from '../../../UI/TimeTable';
 
 const adminLoginSection = (props) => {
   return (
