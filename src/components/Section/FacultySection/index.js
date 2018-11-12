@@ -117,7 +117,7 @@ class FacultySection extends Component {
     } else {
       result = (
         <form onSubmit={this.handleSubmit}>
-          <label for="roll">Enter your Faculty ID</label>
+          <label htmlFor="roll">Enter your Faculty ID</label>
           <input name="roll" 
             value={this.state.roll} 
             type="text" 
