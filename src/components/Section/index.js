@@ -7,6 +7,7 @@ import FacultyLoginSection from './FacultySection/login';
 import StudentSection from './StudentSection';
 import StudentLoginSection from './StudentSection/login';
 import AdminLoginSection from './AdminSection/login';
+import AdminSection from './AdminSection';
 
 class Section extends Component {
 
@@ -15,13 +16,14 @@ class Section extends Component {
       <Fragment>
         <Switch>
           <Route path="/" exact={true} component={LoginSection} />
-          <Route path="/student" exact={true} component={StudentLoginSection} />
           <Route path="/student/login" exact={true} component={StudentLoginSection} />
           <Route path="/student/:id" component={StudentSection} />
-          <Route path="/faculty/" exact={true} component={FacultyLoginSection} />
+          <Route path="/student" component={StudentLoginSection} />
           <Route path="/faculty/login" exact={true} component={FacultyLoginSection} />
           <Route path="/faculty/:id" component={FacultySection} />
-          <Route path="/admin/login" component={AdminLoginSection} />
+          <Route path="/faculty" component={FacultyLoginSection} />
+          <Route path="/admin/login" exact={true} component={AdminLoginSection} />
+          <Route path="/admin" component={AdminSection} />
         </Switch>
       </Fragment>
     );
