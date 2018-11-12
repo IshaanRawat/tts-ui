@@ -12,7 +12,7 @@ class App extends Component {
     return (
       <div className="App">
         <Header />
-        <BrowserRouter>
+        <BrowserRouter basename={process.env.PUBLIC_URL}>
           <Section />
         </BrowserRouter>
         <Footer />
