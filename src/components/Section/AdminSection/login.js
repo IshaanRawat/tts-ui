@@ -5,10 +5,16 @@ class AdminLoginSection extends Component {
   constructor(props) {
     super(props);
     this.handleSubmit = this.handleSubmit.bind(this);
+    this.verifyPassword = this.verifyPassword.bind(this);
+  }
+
+  verifyPassword() {
+    this.props.history.push('/admin');
   }
 
   handleSubmit(e) {
     e.preventDefault();
+    this.verifyPassword();
   }
 
   render() {
