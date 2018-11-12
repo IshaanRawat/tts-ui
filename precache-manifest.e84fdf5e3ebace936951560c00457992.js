@@ -4,19 +4,19 @@ self.__precacheManifest = [
     "url": "/tts-ui/static/js/runtime~main.90e13cc5.js"
   },
   {
-    "revision": "eecd1d82b614edcc6082",
-    "url": "/tts-ui/static/js/main.eecd1d82.chunk.js"
+    "revision": "691a9e20b4bb6aa5380b",
+    "url": "/tts-ui/static/js/main.691a9e20.chunk.js"
   },
   {
     "revision": "f9f2991fd7f15c8085ef",
     "url": "/tts-ui/static/js/1.f9f2991f.chunk.js"
   },
   {
-    "revision": "eecd1d82b614edcc6082",
+    "revision": "691a9e20b4bb6aa5380b",
     "url": "/tts-ui/static/css/main.7d90971e.chunk.css"
   },
   {
-    "revision": "fcfc66255192701a4cf858e66c041fe8",
+    "revision": "4a70228c626d0dca76c7069fdd017f12",
     "url": "/tts-ui/index.html"
   }
 ];
