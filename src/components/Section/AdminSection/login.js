@@ -1,17 +1,28 @@
-import React from 'react';
+import React, {Component} from 'react';
 import {Link} from 'react-router-dom';
 
-const adminLoginSection = (props) => {
-  return (
-    <section>
-      <h1><Link className="no-decoration" to="/"> &larr; </Link>Admin Login</h1>
-      <form>
-        <label for="password">Enter the password</label>
-        <input name="password" type="password" placeholder="Password" />
-        <input type="submit" className="button green" value="Login" />
-      </form>
-    </section>
-  );
-};
+class AdminLoginSection extends Component {
+  constructor(props) {
+    super(props);
+    this.handleSubmit = this.handleSubmit.bind(this);
+  }
 
-export default adminLoginSection;
+  handleSubmit(e) {
+    e.preventDefault();
+  }
+
+  render() {
+    return (
+      <section>
+        <h1><Link className="no-decoration" to="/"> &larr; </Link>Admin Login</h1>
+        <form onSubmit={this.handleSubmit}>
+          <label for="password">Enter the password</label>
+          <input name="password" type="password" placeholder="Password" />
+          <input type="submit" className="button green" value="Login" />
+        </form>
+      </section>
+    );
+  }
+}
+
+export default AdminLoginSection;
