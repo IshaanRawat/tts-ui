@@ -14,7 +14,7 @@ class App extends Component {
     return (
       <div className="App">
         <Header />
-        <BrowserRouter basename="/tts-ui/">
+        <BrowserRouter basename={process.env.PUBLIC_URL}>
           <Section />
         </BrowserRouter>
         <Footer />
