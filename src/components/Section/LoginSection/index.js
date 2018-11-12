@@ -14,7 +14,7 @@ const loginSection = () => {
       <section id="login-section">
         <div className="section-heading">Admin Login Portal</div>
         <div className="text-center">
-          <Link className="button red" to="/admin">Admin Login</Link>
+          <Link className="button red" to="/admin/login">Admin Login</Link>
         </div>
       </section>
     </Fragment>
