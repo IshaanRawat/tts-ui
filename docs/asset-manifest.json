@@ -1,13 +1,13 @@
 {
-  "main.css": "./static/css/main.368b49fd.chunk.css",
-  "main.js": "./static/js/main.c820c2d7.chunk.js",
-  "main.js.map": "./static/js/main.c820c2d7.chunk.js.map",
-  "static/js/1.f9f2991f.chunk.js": "./static/js/1.f9f2991f.chunk.js",
-  "static/js/1.f9f2991f.chunk.js.map": "./static/js/1.f9f2991f.chunk.js.map",
-  "runtime~main.js": "./static/js/runtime~main.4a686d48.js",
-  "runtime~main.js.map": "./static/js/runtime~main.4a686d48.js.map",
-  "static/css/main.368b49fd.chunk.css.map": "./static/css/main.368b49fd.chunk.css.map",
-  "index.html": "./index.html",
-  "precache-manifest.8de26e206d02333e976177f3ea07cdf3.js": "./precache-manifest.8de26e206d02333e976177f3ea07cdf3.js",
-  "service-worker.js": "./service-worker.js"
+  "main.css": "/tts-ui/static/css/main.7d90971e.chunk.css",
+  "main.js": "/tts-ui/static/js/main.7c9e0207.chunk.js",
+  "main.js.map": "/tts-ui/static/js/main.7c9e0207.chunk.js.map",
+  "static/js/1.f9f2991f.chunk.js": "/tts-ui/static/js/1.f9f2991f.chunk.js",
+  "static/js/1.f9f2991f.chunk.js.map": "/tts-ui/static/js/1.f9f2991f.chunk.js.map",
+  "runtime~main.js": "/tts-ui/static/js/runtime~main.90e13cc5.js",
+  "runtime~main.js.map": "/tts-ui/static/js/runtime~main.90e13cc5.js.map",
+  "static/css/main.7d90971e.chunk.css.map": "/tts-ui/static/css/main.7d90971e.chunk.css.map",
+  "index.html": "/tts-ui/index.html",
+  "precache-manifest.3df1c63f47251fa7166d2d7badeafdff.js": "/tts-ui/precache-manifest.3df1c63f47251fa7166d2d7badeafdff.js",
+  "service-worker.js": "/tts-ui/service-worker.js"
 }
