@@ -7,8 +7,8 @@ const loginSection = () => {
       <section id="login-section">
         <div className="section-heading">You are a</div>
         <div className="chain">
-          <Link className="six pockets button blue" to="/faculty">Faculty</Link>
-          <Link className="six pockets button green" to="/student">Student</Link>
+          <Link className="six pockets button blue" to="/faculty/login">Faculty</Link>
+          <Link className="six pockets button green" to="/student/login">Student</Link>
         </div>
       </section>
       <section id="login-section">
