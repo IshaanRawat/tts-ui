@@ -8,6 +8,7 @@ import StudentSection from './StudentSection';
 import StudentLoginSection from './StudentSection/login';
 import AdminLoginSection from './AdminSection/login';
 import AdminSection from './AdminSection';
+import NoMatch from '../404';
 
 class Section extends Component {
 
@@ -24,6 +25,7 @@ class Section extends Component {
           <Route path="/faculty" component={FacultyLoginSection} />
           <Route path="/admin/login" exact={true} component={AdminLoginSection} />
           <Route path="/admin" component={AdminSection} />
+          <Route component={NoMatch} />
         </Switch>
       </Fragment>
     );
